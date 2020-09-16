@@ -13,6 +13,7 @@
 		01AE903E25118D6E0071B323 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AE903C25118D6E0071B323 /* Main.storyboard */; };
 		01AE904025118D6F0071B323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01AE903F25118D6F0071B323 /* Assets.xcassets */; };
 		01AE904325118D6F0071B323 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AE904125118D6F0071B323 /* LaunchScreen.storyboard */; };
+		E15690982511A09D0036AAFB /* HotelDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15690972511A09D0036AAFB /* HotelDetails.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		01AE903F25118D6F0071B323 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01AE904225118D6F0071B323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01AE904425118D6F0071B323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E15690972511A09D0036AAFB /* HotelDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HotelDetails.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				01AE903825118D6E0071B323 /* SceneDelegate.swift */,
 				01AE903A25118D6E0071B323 /* ViewController.swift */,
 				01AE903C25118D6E0071B323 /* Main.storyboard */,
+				E15690972511A09D0036AAFB /* HotelDetails.storyboard */,
 				01AE903F25118D6F0071B323 /* Assets.xcassets */,
 				01AE904125118D6F0071B323 /* LaunchScreen.storyboard */,
 				01AE904425118D6F0071B323 /* Info.plist */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E15690982511A09D0036AAFB /* HotelDetails.storyboard in Resources */,
 				01AE904325118D6F0071B323 /* LaunchScreen.storyboard in Resources */,
 				01AE904025118D6F0071B323 /* Assets.xcassets in Resources */,
 				01AE903E25118D6E0071B323 /* Main.storyboard in Resources */,
