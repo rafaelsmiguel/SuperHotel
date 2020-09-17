@@ -14,6 +14,7 @@
 		01AE904025118D6F0071B323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01AE903F25118D6F0071B323 /* Assets.xcassets */; };
 		01AE904325118D6F0071B323 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AE904125118D6F0071B323 /* LaunchScreen.storyboard */; };
 		E15690982511A09D0036AAFB /* HotelDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15690972511A09D0036AAFB /* HotelDetails.storyboard */; };
+		E1626F5225142D0000BA30F2 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1626F5125142D0000BA30F2 /* Country.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		01AE904225118D6F0071B323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01AE904425118D6F0071B323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E15690972511A09D0036AAFB /* HotelDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HotelDetails.storyboard; sourceTree = "<group>"; };
+		E1626F5125142D0000BA30F2 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				01AE903625118D6E0071B323 /* AppDelegate.swift */,
 				01AE903825118D6E0071B323 /* SceneDelegate.swift */,
 				01AE903A25118D6E0071B323 /* ViewController.swift */,
+				E1626F5125142D0000BA30F2 /* Country.swift */,
 				01AE903C25118D6E0071B323 /* Main.storyboard */,
 				E15690972511A09D0036AAFB /* HotelDetails.storyboard */,
 				01AE903F25118D6F0071B323 /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1626F5225142D0000BA30F2 /* Country.swift in Sources */,
 				01AE903B25118D6E0071B323 /* ViewController.swift in Sources */,
 				01AE903725118D6E0071B323 /* AppDelegate.swift in Sources */,
 				01AE903925118D6E0071B323 /* SceneDelegate.swift in Sources */,
