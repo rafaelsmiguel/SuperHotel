@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0120BE4425142B3900ECBE36 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0120BE4325142B3900ECBE36 /* Hotel.swift */; };
+		0120BE4725142B9200ECBE36 /* Hotel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0120BE4625142B9200ECBE36 /* Hotel.storyboard */; };
 		01AE903725118D6E0071B323 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AE903625118D6E0071B323 /* AppDelegate.swift */; };
 		01AE903925118D6E0071B323 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AE903825118D6E0071B323 /* SceneDelegate.swift */; };
 		01AE903B25118D6E0071B323 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AE903A25118D6E0071B323 /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0120BE4325142B3900ECBE36 /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		0120BE4625142B9200ECBE36 /* Hotel.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Hotel.storyboard; sourceTree = "<group>"; };
 		01AE903325118D6E0071B323 /* SuperHotel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperHotel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01AE903625118D6E0071B323 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01AE903825118D6E0071B323 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +47,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0120BE4225142AF200ECBE36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0120BE4325142B3900ECBE36 /* Hotel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0120BE4525142B7D00ECBE36 /* Hotel */ = {
+			isa = PBXGroup;
+			children = (
+				0120BE4225142AF200ECBE36 /* Model */,
+				0120BE4625142B9200ECBE36 /* Hotel.storyboard */,
+			);
+			path = Hotel;
+			sourceTree = "<group>";
+		};
 		01AE902A25118D6E0071B323 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +83,7 @@
 		01AE903525118D6E0071B323 /* SuperHotel */ = {
 			isa = PBXGroup;
 			children = (
+				0120BE4525142B7D00ECBE36 /* Hotel */,
 				B28B4225251422E3007DF763 /* Booking.storyboard */,
 				B28B421D251421D8007DF763 /* Users.storyboard */,
 				01AE903625118D6E0071B323 /* AppDelegate.swift */,
@@ -134,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0120BE4725142B9200ECBE36 /* Hotel.storyboard in Resources */,
 				E15690982511A09D0036AAFB /* HotelDetails.storyboard in Resources */,
 				B28B421E251421D8007DF763 /* Users.storyboard in Resources */,
 				B28B4226251422E3007DF763 /* Booking.storyboard in Resources */,
@@ -152,6 +175,7 @@
 			files = (
 				01AE903B25118D6E0071B323 /* ViewController.swift in Sources */,
 				01AE903725118D6E0071B323 /* AppDelegate.swift in Sources */,
+				0120BE4425142B3900ECBE36 /* Hotel.swift in Sources */,
 				01AE903925118D6E0071B323 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
