@@ -14,6 +14,7 @@
 		01AE904025118D6F0071B323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01AE903F25118D6F0071B323 /* Assets.xcassets */; };
 		01AE904325118D6F0071B323 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AE904125118D6F0071B323 /* LaunchScreen.storyboard */; };
 		B28B421E251421D8007DF763 /* Users.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28B421D251421D8007DF763 /* Users.storyboard */; };
+		B28B4226251422E3007DF763 /* Booking.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28B4225251422E3007DF763 /* Booking.storyboard */; };
 		E15690982511A09D0036AAFB /* HotelDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15690972511A09D0036AAFB /* HotelDetails.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		01AE904225118D6F0071B323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01AE904425118D6F0071B323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B28B421D251421D8007DF763 /* Users.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Users.storyboard; sourceTree = "<group>"; };
+		B28B4225251422E3007DF763 /* Booking.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Booking.storyboard; sourceTree = "<group>"; };
 		E15690972511A09D0036AAFB /* HotelDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HotelDetails.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +62,7 @@
 		01AE903525118D6E0071B323 /* SuperHotel */ = {
 			isa = PBXGroup;
 			children = (
+				B28B4225251422E3007DF763 /* Booking.storyboard */,
 				B28B421D251421D8007DF763 /* Users.storyboard */,
 				01AE903625118D6E0071B323 /* AppDelegate.swift */,
 				01AE903825118D6E0071B323 /* SceneDelegate.swift */,
@@ -133,6 +136,7 @@
 			files = (
 				E15690982511A09D0036AAFB /* HotelDetails.storyboard in Resources */,
 				B28B421E251421D8007DF763 /* Users.storyboard in Resources */,
+				B28B4226251422E3007DF763 /* Booking.storyboard in Resources */,
 				01AE904325118D6F0071B323 /* LaunchScreen.storyboard in Resources */,
 				01AE904025118D6F0071B323 /* Assets.xcassets in Resources */,
 				01AE903E25118D6E0071B323 /* Main.storyboard in Resources */,
