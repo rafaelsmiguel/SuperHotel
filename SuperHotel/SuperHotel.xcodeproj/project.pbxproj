@@ -22,7 +22,11 @@
 		B28B421E251421D8007DF763 /* Users.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28B421D251421D8007DF763 /* Users.storyboard */; };
 		B28B4226251422E3007DF763 /* Booking.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28B4225251422E3007DF763 /* Booking.storyboard */; };
 		E15690982511A09D0036AAFB /* HotelDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15690972511A09D0036AAFB /* HotelDetails.storyboard */; };
+<<<<<<< HEAD
 >>>>>>> 8e5a84cf0d6aa90b118e68080c0ed4169ab17322
+=======
+		E1626F5225142D0000BA30F2 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1626F5125142D0000BA30F2 /* Country.swift */; };
+>>>>>>> hotel-details-feature
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +47,11 @@
 		B28B421D251421D8007DF763 /* Users.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Users.storyboard; sourceTree = "<group>"; };
 		B28B4225251422E3007DF763 /* Booking.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Booking.storyboard; sourceTree = "<group>"; };
 		E15690972511A09D0036AAFB /* HotelDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HotelDetails.storyboard; sourceTree = "<group>"; };
+<<<<<<< HEAD
 >>>>>>> 8e5a84cf0d6aa90b118e68080c0ed4169ab17322
+=======
+		E1626F5125142D0000BA30F2 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+>>>>>>> hotel-details-feature
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 				01AE903625118D6E0071B323 /* AppDelegate.swift */,
 				01AE903825118D6E0071B323 /* SceneDelegate.swift */,
 				01AE903A25118D6E0071B323 /* ViewController.swift */,
+				E1626F5125142D0000BA30F2 /* Country.swift */,
 				01AE903C25118D6E0071B323 /* Main.storyboard */,
 				E15690972511A09D0036AAFB /* HotelDetails.storyboard */,
 				01AE903F25118D6F0071B323 /* Assets.xcassets */,
@@ -188,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1626F5225142D0000BA30F2 /* Country.swift in Sources */,
 				01AE903B25118D6E0071B323 /* ViewController.swift in Sources */,
 				54FA5763251425A70086D521 /* Booking.swift in Sources */,
 				01AE903725118D6E0071B323 /* AppDelegate.swift in Sources */,
