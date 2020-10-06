@@ -10,13 +10,32 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var backWelcoButton: UIButton!
+    @IBOutlet weak var bigLoginLabel: UILabel!
+    @IBOutlet weak var emailLoginTextField: UITextField!
+    @IBOutlet weak var passLoginTextField: UITextField!
+    @IBOutlet weak var loginButton: UIButton!
+    @IBOutlet weak var alreadyNotLabel: UILabel!
+    @IBOutlet weak var miniRegisterButton: UIButton!
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func backWelcoAction(_ sender: Any) {
+    }
+    
+    @IBAction func loginAction(_ sender: Any) {
+    }
+    
+    @IBAction func miniRegisterAction(_ sender: Any) {
+    }
+    
     /*
     // MARK: - Navigation
 

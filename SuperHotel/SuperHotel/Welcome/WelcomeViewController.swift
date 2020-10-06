@@ -10,6 +10,12 @@ import UIKit
 
 class WelcomeViewController: UIViewController {
 
+    @IBOutlet weak var logoImage: UIImageView!
+    @IBOutlet weak var backGroundImage: UIImageView!
+    @IBOutlet weak var logoLabel: UILabel!
+    @IBOutlet weak var sloganLabel: UILabel!
+    @IBOutlet weak var goRegisterButton: UIButton!
+    @IBOutlet weak var goLoginButton: UIButton!
     
     
     override func viewDidLoad() {
@@ -18,7 +24,12 @@ class WelcomeViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func goRegisterAction(_ sender: Any) {
+    }
+    
+    @IBAction func goLoginAction(_ sender: Any) {
+    }
+    
     /*
     // MARK: - Navigation
 

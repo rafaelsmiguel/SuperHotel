@@ -10,13 +10,36 @@ import UIKit
 
 class RegisterViewController: UIViewController {
 
+    @IBOutlet weak var backWelcomeButton: UIButton!
+    @IBOutlet weak var bigSignLabel: UILabel!
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var fromTextField: UITextField!
+    @IBOutlet weak var genreTextField: UITextField!
+    @IBOutlet weak var birthTextField: UITextField!
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var passTextField: UITextField!
+    @IBOutlet weak var confirmPassTextField: UITextField!
+    @IBOutlet weak var registerButton: UIButton!
+    @IBOutlet weak var alreadySignLabel: UILabel!
+    @IBOutlet weak var miniLoginButton: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func backWelcomeAction(_ sender: Any) {
+    }
+    
+    @IBAction func registerAction(_ sender: Any) {
+    }
+    
+    @IBAction func miniLoginAction(_ sender: Any) {
+    }
+    
+    
     /*
     // MARK: - Navigation
 
